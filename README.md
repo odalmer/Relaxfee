@@ -1,2 +1,2 @@
-# Relaxfee
-Proyecto final 6to de informatica Odalmer Pimentel
+# Relaxfeed
+Proyecto final de 6to informatica Odalmer Pimentel Santa #16
