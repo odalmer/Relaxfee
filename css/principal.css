@@ -5,6 +5,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Source+Sans+Pro&display=swap');
 /*  */
 
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+html, body {
+    margin: 0px;
+    height: 100%;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
 }
@@ -19,7 +29,7 @@ p {
 header {
     position: absolute;
     z-index: 10;
-    width: 100%;
+    min-width: 100%;
 }
 
 .header .navbar {
@@ -45,6 +55,7 @@ header {
 
 .footer {
     background-color: #37384E !important;
+    width: 100%;
 }
 
 @media(max-width:1200px) {
