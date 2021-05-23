@@ -4,7 +4,7 @@ const navItem = document.querySelector("nav");
 
 let btnClose = false;
 mobileNavBtn.addEventListener("click", (e) => {
-  if (btnClose == false) {
+  if (btnClose == false || navItem.style.background != "#2E294E") {
     navItem.style.background = "#2E294E";
     btnClose = true;
   } else {

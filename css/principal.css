@@ -2,28 +2,43 @@
 
 /* font-family: 'Source Sans Pro', sans-serif; */
 
+/* font-family: 'Roboto', sans-serif; */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 /*  */
 
 html, body {
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-}
-
-html, body {
-    margin: 0px;
-    height: 100%;
+    min-width: 100% !important;
 }
 
 h1 {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.bannerTitle {
     font-family: 'Montserrat', sans-serif;
 }
 
 /* li {} */
 
+.btnToSobreNo {
+    border: 3px solid !important;
+    border-color: #37384E !important;
+    padding: 1rem 3rem !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+.social-icon {
+    width: 3rem;
+}
+
 p {
     font-family: 'Source Sans Pro', sans-serif;
-    text-align: justify;
+    /* text-align: justify; */
+    font-size: 1.3rem;
 }
 
 header {
@@ -32,15 +47,15 @@ header {
     min-width: 100%;
 }
 
-.header .navbar {
-    background-color: transparent !important;
-}
-
 .banner {
-    background: url("https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_960_720.jpg");
+    background: url("../img/banner2.jpg");
     min-height: 100vh;
     background-size: cover;
-    margin-bottom: 6rem !important;
+    /* margin-bottom: 6rem !important; */
+}
+
+.bannerTitle {
+    font-size: 9vw !important;
 }
 
 .nav-link, .navbar-brand {
@@ -50,7 +65,7 @@ header {
 
 .nav-link:hover, .navbar-brand:hover {
     border-bottom: 3px solid;
-    border-color: #E5532A;
+    border-color: #EFBCD5;
 }
 
 .footer {
@@ -58,8 +73,21 @@ header {
     width: 100%;
 }
 
+.ImgTwoCol {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    /* background-size:cover; */
+}
+
 @media(max-width:1200px) {
     .banner {
-        margin-bottom: 1rem !important;
+        margin-bottom: 4rem !important;
+    }
+}
+
+@media(max-width:700px) {
+    .bannerTitle {
+        font-size: 20vw !important;
     }
 }
