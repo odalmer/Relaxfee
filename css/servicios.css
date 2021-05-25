@@ -1,0 +1,12 @@
+.serviciosTitulo {
+    font-size: 70px;
+    margin-top: 10vh;
+}
+
+.imgServi {
+    float: left;
+    width: 50%;
+    height: 30vh;
+    object-fit: cover;
+}
+
