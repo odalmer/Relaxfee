@@ -10,6 +10,7 @@
     <!-- Styles (Css creados por mi) -->
     <link rel="stylesheet" href="css\principal.css">
     <link rel="stylesheet" href="css/contactanos.css">
+
     <link rel="shortcut icon"
         href="https://png.pngtree.com/png-clipart/20190925/ourmid/pngtree-coffee-grains-flying-into-cup-of-espresso-with-splash-png-background-png-image_1742478.jpg">
     <!-- bootstrap ===========================-->
@@ -64,13 +65,14 @@
     <!-- Banner -->
     <div class="row banner bannerContact d-flex align-items-center mb-5 mb-xxl-0">
         <div class="col ms-md-5 me-1 ms-2 ps-md-5 col-11 col-md-10 col-xl-6 text-white">
-            <h1 class="display-4 fw-bold bannerTitle ">Contactanos</h1>
-            <p class="lead text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio</p>
+            <h1 class="display-4 fw-bold bannerTitle " style="font-size: 10px;">Contacto</h1>
+            <p class="lead text-light">Si sabes que somos los mejores, ¿Qué esperas para venir?</p>
             <hr class="mb-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.
+            <p>Tenemos la mejor calidad del mercado, estamos en una ubicación de fácil acceso. Que tal el lunes por la mañana, para
+            empezar la semana con el pie derecho.
             </p>
             <p class="my-4">
-                <a class="btn btn-lg ps-5 pe-5 fw-bold" style="background-color: #EFBCD5;color: #2E294E;" href="#"
+                <a class="btn btn-lg ps-5 pe-5 fw-bold" style="background-color: #EFBCD5;color: #2E294E;" href="#Ubicacion"
                     role="button">Leer más</a>
             </p>
         </div>
@@ -79,24 +81,62 @@
     <!-- Content -->
     <div class="container-fluid d-flex align-items-center">
         <div class="row min-vh-100 m-lg-5 mt-5 mb-5">
-            <div class="col col col-12 col-lg-6">
+            <div class="col col col-12 col-lg-5">
                 <div class="row d-flex justify-content-center">
                     <div class="col col-12">
-                        <h1>Ubicación</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit consectetur asperiores veritatis voluptatum consequatur obcaecati quas est sed earum aut! Veritatis delectus beatae nisi, eligendi quisquam nulla! Amet, consequatur cupiditate.</p>
+                        <h1 id="Ubicacion">Ubicación</h1>
+                        <p style="margin-top: 1vw;margin-bottom: 2vw;">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Velit consectetur asperiores
+                            veritatis voluptatum consequatur obcaecati quas est sed earum aut! Veritatis delectus beatae
+                            nisi, eligendi quisquam nulla! Amet, consequatur cupiditate.</p>
+
+                        <h1 class="mt-4">Nose kebaki pero rifle lo puso</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, assumenda ad corrupti enim
+                            laborum voluptate et ex adipisci, quod temporibus consectetur ea facere cum tenetur
+                            inventore itaque nostrum ratione minima.</p>
                     </div>
-                    <div class="col"></div>
-                    <div class="col"></div>
+                </div>
+                <div class="row mt-5">
+                    <hr>
+                    <h1>.....</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, asperiores nemo voluptate autem
+                        quisquam quo vel praesentium quasi! Possimus nihil et temporibus laudantium, laborum tempora
+                        magnam non aspernatur ullam sed.</p>
+                </div>
+                <div class="row mt-5">
+                    <hr>
+                    <!-- 1th soial media row -->
+                    <div class="row mt-4">
+                        <div class="col">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1025px-Instagram-Icon.png"
+                                class="socialIcon" alt="">
+                        </div>
+                        <div class="col-12 col-lg-10">
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis reiciendis veniam
+                                optio possimus sunt nostrum
+                                aspernatur id, nisi nulla libero sint omnis, voluptatem recusandae quasi! Voluptates
+                                soluta quis quae provident!</p>
+                        </div>
+                    </div>
+                    <!-- 2th soial media row -->
+                    <div class="row mt-4">
+                        <div class="col">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+                                class="socialIcon" alt="">
+                        </div>
+                        <div class="col-12 col-lg-10">
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis reiciendis veniam
+                                optio possimus sunt nostrum
+                                aspernatur id, nisi nulla libero sint omnis, voluptatem recusandae quasi! Voluptates
+                                soluta quis quae provident!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col col-12 col-lg-6">
-                <h3>My Google Maps Demo</h3>
-                <!--The div element for the map -->
-                <div id="map"></div>
-                
-                <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-                <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
-                    async></script>
+            <div class="col col-12 col-lg-7">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15135.809793041037!2d-69.948334!3d18.485813!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x19d59fe09af95898!2sUniversidad%20Nacional%20Pedro%20Henr%C3%ADquez%20Ure%C3%B1a!5e0!3m2!1ses-419!2sdo!4v1621966943470!5m2!1ses-419!2sdo"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
             </div>
         </div>
     </div>
@@ -142,10 +182,6 @@
     <!-- Para el background que aparece en el menu ddesplegable en la version mobile (Creado por mi) -->
     <script src="js/navBtn.js"></script>
 
-    <!-- Mapa api -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
-        async></script>
-        <script src="js/maps.js"></script>
 </body>
 
 </html>

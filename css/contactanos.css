@@ -3,16 +3,35 @@
     background-size: cover;
 }
 
-.banner{
+.banner {
     margin-bottom: 30vw;
 }
-.footer{
+
+.footer {
     margin-top: 10vh !important;
 }
 
-#map {
-    height: 80%;
-    /* The height is 400 pixels */
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 100%;
     width: 100%;
-    /* The width is the width of the web page */
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 100%;
+}
+
+.socialIcon {
+    float: left !important;
+    width: 100% !important;
+    /* height: 25px; */
+}
+
+@media(max-width:800px) {
+    .map {
+        height: 600px;
+    }
 }

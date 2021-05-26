@@ -1,16 +1,20 @@
-.serviciosTitulo {
-    font-size: 70px;
-    margin-top: 10vh;
-}
-
-.imgServi {
+.imgProduct {
     float: left;
-    width: 50%;
-    height: 30vh;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
 .bannerServ {
     background: url('https://images.unsplash.com/photo-1475296204602-08d15839e95f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
     background-size: cover;
+}
+
+.row-product {
+    height: 200px;
+}
+
+.bannerTitlePro {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9vw !important;
 }
