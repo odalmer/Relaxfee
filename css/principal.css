@@ -83,7 +83,7 @@ header {
 
 .footer {
     background-color: #37384E !important;
-    width: 100%;
+    min-width: 100%;
 }
 
 .clase {
